@@ -1,0 +1,11 @@
+let nombres = ["Juan", "Bernd", "Oswaldo", "Diego"];
+nombres.push("Martín", "Miranda");
+let elUltimo = nombres.pop();
+let elPrimero = nombres.shift();
+console.log(elUltimo);
+console.log(elPrimero);
+nombres.unshift("Marcos");
+console.log(nombres);
+console.log(nombres.indexOf("Bernd"));
+console.log(nombres.lastIndexOf("Bernd"));
+console.log(nombres.join(", "));
